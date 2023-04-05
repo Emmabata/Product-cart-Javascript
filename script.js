@@ -55,7 +55,7 @@ favCart.forEach(box => {
         }
         
       })
-      minusBtn1.addEventListener("click", () => {
+      minusBtn2.addEventListener("click", () => {
         if(input2.value <= 1){
           input2.value === 1;
         }else{
@@ -63,7 +63,7 @@ favCart.forEach(box => {
         }
         
       })
-      minusBtn1.addEventListener("click", () => {
+      minusBtn3.addEventListener("click", () => {
         if(input3.value <= 1){
           input3.value === 1;
         }else{
